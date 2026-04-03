@@ -1,0 +1,11 @@
+[workspace]
+members = ["crates/rupt_core", "crates/rupt_cli"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace.dependencies]
+rupt_core = { path = "crates/rupt_core" }

@@ -1,0 +1,15 @@
+[package]
+name = "rupt"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "rupt"
+path = "src/main.rs"
+
+[dependencies]
+rupt_core.workspace = true
+clap = { version = "4", features = ["derive"] }
+dunce = "1"
+notify = "7"
